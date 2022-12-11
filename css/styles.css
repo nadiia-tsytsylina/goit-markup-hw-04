@@ -273,6 +273,9 @@ hero*/
   padding-bottom: 100px;
   background-color: var(--background-dark);
 }
+.footer-container{
+  display: flex;
+}
 .footer-logo{
   display: block;
   color: var(--ligth-text);
@@ -284,7 +287,37 @@ hero*/
   width: 264px;
   margin: 0;
 }
-
+.footer-sl{
+  margin-left: 120px;
+}
+.footer-sl-list{
+  display: flex;
+  gap: 16px;
+}
+.footer-sl-title{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ligth-text);
+}
+.footer-sl-link{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-sl-link:hover,
+.footer-sl-link:focus{
+  background-color:var(--accent-color);
+}
+.footer-sl-icon{
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+}
 /*portfolio*/
 .gallery {
   padding-bottom: 120px;
